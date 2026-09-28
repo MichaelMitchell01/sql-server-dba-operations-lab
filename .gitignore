@@ -1,0 +1,43 @@
+# SQL Server backup and diagnostic files
+*.bak
+*.trn
+*.dif
+*.xel
+*.blg
+*.etl
+*.dmp
+*.mdmp
+
+# Generated output
+reports/
+output/
+artifacts/
+*.tmp
+*.temp
+*.log
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.clixml
+*.pfx
+*.p12
+*.pvk
+*.key
+
+# PowerShell and local tooling
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Operating-system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary Office files
+~$*
